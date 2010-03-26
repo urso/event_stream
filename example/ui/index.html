@@ -1,0 +1,83 @@
+
+<html>
+    <head><title>Examples</title>
+        <script type="text/javascript" src="../mootools-1.2.4-core-nc.js"></script>
+
+        <script type="text/javascript" src="../fun.js"></script>
+
+        <script type="text/javascript" src="../../src/event_stream.js"></script>
+        <script type="text/javascript" src="../../src/event_stream_plugins.js"></script>
+        <script type="text/javascript" src="../../src/event_stream_extra.js"></script>
+
+        <script type="text/javascript" src="site-script.js"></script>
+    </head>
+    <body>
+
+        <div id="eventStreamTest">
+            <div id="addTest">
+                <input type="text" id="a" value="0" /> + 
+                <input type="text" id="b" value="0" /> = <span id="result"></span>
+            </div>
+
+            <div>
+                <input type="password" id="pwd1" />
+                <input type="password" id="pwd2" />
+                <div id="show_pwd"></div>
+            </div>
+
+            <div>
+                <input type="button" id="click_test" value="click me" />
+            </div>
+
+            <div>
+                <textarea id="html_test" cols="80" rows="10"> </textarea>
+                <div id="html_result">
+                </div>
+            </div>
+
+            <div>
+                <select id="select1">
+                    <option>option1</option>
+                    <option>option2</option>
+                    <option>option3</option>
+                    <option>option4</option>
+                </select><br/>
+                <span id="show_select1"></span>
+            </div>
+            <div>
+                <select id="select2" multiple="multiple">
+                    <option>option1</option>
+                    <option>option2</option>
+                    <option>option3</option>
+                    <option>option4</option>
+                </select><br/>
+                <span id="show_select2"></span>
+            </div>
+
+            <div>
+            </div>
+
+            <div id="colors">
+            <input type="radio" name="color" value="red">Red
+            <input type="radio" name="color" value="green">Green
+            <input type="radio" name="color" value="blue">Blue
+            </div>
+            <span id="showColor"></span>
+
+            <div id="ostart">
+                <input type="text" value="" />
+                <span></span>
+            </div>
+
+            <div id="numTest">
+                <input type="button" id="countbtn" value="count" /><br/>
+                constant: <span id="numConst" class="const"></span><br/>
+                count presses: <span id="numCount" class="count"></span><br/>
+                sum: <span id="numSum" class="sum"></span><br/>
+                fib: <span id="numFib" class="fib"></span><br/>
+
+            </div>
+        </div>
+    </body>
+</html>
+
